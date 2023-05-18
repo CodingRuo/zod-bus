@@ -1,5 +1,11 @@
 # @codingruo/zod-bus
 
+## 0.0.7
+
+### Patch Changes
+
+- 41e99a4: Adding GitHub Token
+
 ## 0.0.6
 
 ### Patch Changes
