@@ -1,5 +1,11 @@
 # @codingruo/zod-bus
 
+## 0.0.4
+
+### Patch Changes
+
+- 6a1ec5c: Trying to fix pipe
+
 ## 0.0.3
 
 ### Patch Changes
