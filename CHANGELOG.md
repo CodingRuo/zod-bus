@@ -1,5 +1,11 @@
 # @codingruo/zod-bus
 
+## 0.0.5
+
+### Patch Changes
+
+- c612af3: next try fto fix pipe
+
 ## 0.0.4
 
 ### Patch Changes
