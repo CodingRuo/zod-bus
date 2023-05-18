@@ -1,5 +1,11 @@
 # @codingruo/zod-bus
 
+## 0.0.9
+
+### Patch Changes
+
+- fixing dist folder
+
 ## 0.0.8
 
 ### Patch Changes
