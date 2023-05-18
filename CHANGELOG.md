@@ -1,5 +1,11 @@
 # @codingruo/zod-bus
 
+## 0.0.6
+
+### Patch Changes
+
+- 4892cb3: next fix try
+
 ## 0.0.5
 
 ### Patch Changes
