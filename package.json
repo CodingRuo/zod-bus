@@ -1,5 +1,5 @@
 {
-  "name": "@codingruo/zod-message-protocol",
+  "name": "@codingruo/zod-bus",
   "version": "0.0.9",
   "description": "",
   "main": "./dist/index.js",

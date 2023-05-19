@@ -4,6 +4,12 @@
 
 ### Minor Changes
 
+- 7d74b21: Implemented functionality with ZOD
+
+## 0.1.0
+
+### Minor Changes
+
 - 7c46af1: Added createMessageProtocol API
 
 ## 0.0.9
