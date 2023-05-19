@@ -3,7 +3,7 @@ import { createMessageProtocol } from "./createMessageProtocol";
 
 // { type : 'LOG_IN'; username: string; password: string } | { type: 'LOG_OUT'}
 
-const messageBus = createMessageProtocol({
+const protocol = createMessageProtocol({
   events: {
     LOG_IN: {
       username: z.string(),
@@ -13,4 +13,20 @@ const messageBus = createMessageProtocol({
   },
 });
 
-const handler = messageBus.createHandler((event) => {});
+// iframe.ts
+
+const sendToParent = protocol.createHandler(window.parent.postMessage);
+
+const handleParentEvent = protocol.createHandler((event) => {
+  console.log(event);
+});
+
+window.addEventListener("message", (event) => {
+  handleParentEvent(event.data);
+});
+
+// parent.ts
+
+const iframe = document.querySelector("iframe");
+
+const sendToChild = protocol.createHandler(iframe!.contentWindow!.postMessage);

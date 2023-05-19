@@ -1,5 +1,5 @@
 {
-  "name": "@codingruo/zod-message-protocol",
+  "name": "@codingruo/zod-bus",
   "version": "0.1.0",
   "description": "",
   "main": "./dist/index.js",
@@ -21,10 +21,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/CodingRuo/zod-message-protocol.git"
+    "url": "https://github.com/CodingRuo/zod-bus.git"
   },
-  "homepage": "https://github.com/CodingRuo/zod-message-protocol#readme",
-  "bugs": "https://github.com/CodingRuo/zod-message-protocol/issues",
+  "homepage": "https://github.com/CodingRuo/zod-bus#readme",
+  "bugs": "https://github.com/CodingRuo/zod-bus/issues",
   "peerDependencies": {
     "zod": "^3"
   },

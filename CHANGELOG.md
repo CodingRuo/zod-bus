@@ -1,10 +1,10 @@
-# @codingruo/zod-message-protocol
+# @codingruo/zod-bus
 
 ## 0.1.0
 
 ### Minor Changes
 
-- 09649a7: Implement functionality ZOD and Change Name to zod-message-protocol
+- 09649a7: Implement functionality ZOD and Change Name to zod-bus
 
 ## 0.1.0
 
