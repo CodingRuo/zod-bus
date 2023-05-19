@@ -1,5 +1,11 @@
 # @codingruo/zod-bus
 
+## 1.0.0
+
+### Major Changes
+
+- 445e908: First Major Version
+
 ## 0.1.0
 
 ### Minor Changes
