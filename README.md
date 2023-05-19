@@ -4,10 +4,10 @@
 
 ## Installation
 
-`pnpm add @codingruo/zod-bus`
+`pnpm add @codingruo/zod-message-protocol`
 
-`npm i  @codingruo/zod-bus`
+`npm i  @codingruo/zod-message-protocol`
 
-`yarn add @codingruo/zod-bus`
+`yarn add @codingruo/zod-message-protocol`
 
 ## Usage

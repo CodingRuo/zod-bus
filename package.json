@@ -1,5 +1,5 @@
 {
-  "name": "@codingruo/zod-bus",
+  "name": "@codingruo/zod-message-protocol",
   "version": "0.0.9",
   "description": "",
   "main": "./dist/index.js",
@@ -11,13 +11,7 @@
     "build": "tsup src/index.ts --format cjs,esm --dts",
     "lint": "tsc",
     "ci": "pnpm run lint && pnpm run test && pnpm run build",
-    "release": "pnpm run lint && pnpm run test && pnpm run build && changeset publish",
-    "prepare": "husky install"
-  },
-  "lint-staged": {
-    "*.{js,ts}": [
-      "prettier --write"
-    ]
+    "release": "pnpm run lint && pnpm run test && pnpm run build && changeset publish"
   },
   "keywords": [
     "zod",
@@ -27,17 +21,16 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/CodingRuo/zod-bus.git"
+    "url": "https://github.com/CodingRuo/zod-message-protocol.git"
   },
-  "homepage": "https://github.com/CodingRuo/zod-bus#readme",
-  "bugs": "https://github.com/CodingRuo/zod-bus/issues",
+  "homepage": "https://github.com/CodingRuo/zod-message-protocol#readme",
+  "bugs": "https://github.com/CodingRuo/zod-message-protocol/issues",
   "peerDependencies": {
     "zod": "^3"
   },
   "devDependencies": {
     "@changesets/cli": "^2.26.1",
     "@types/node": "^20.2.1",
-    "husky": "^8.0.3",
     "lint-staged": "^13.2.2",
     "prettier": "^2.8.8",
     "tsup": "^6.7.0",

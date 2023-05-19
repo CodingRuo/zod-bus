@@ -1,4 +1,4 @@
-# @codingruo/zod-bus
+# @codingruo/zod-message-protocol
 
 ## 0.1.0
 
