@@ -4,6 +4,12 @@
 
 ### Minor Changes
 
+- 09649a7: Implement functionality ZOD and Change Name to zod-message-protocol
+
+## 0.1.0
+
+### Minor Changes
+
 - 7d74b21: Implemented functionality with ZOD
 
 ## 0.1.0
