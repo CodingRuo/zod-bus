@@ -1,5 +1,11 @@
 # @codingruo/zod-bus
 
+## 0.1.0
+
+### Minor Changes
+
+- 7c46af1: Added createMessageProtocol API
+
 ## 0.0.9
 
 ### Patch Changes
